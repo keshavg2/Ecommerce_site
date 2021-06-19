@@ -1,0 +1,35 @@
+.container{
+    display:flex;
+    flex-direction:row;
+}
+.home{
+    flex:5;
+    background: rgb(212, 210, 210);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.home_product{
+    border: 1px solid grey;
+    margin: 20px;
+}
+
+.filter{
+    display: flex;
+    flex-direction:column;
+    margin:20px;
+    flex:1;
+}
+
+.filter>div{
+    margin:10px;
+}
+
+.filter> input{
+    padding-bottom:20px;
+}
+.sort{
+    display:flex;
+    flex-direction:row;
+}
