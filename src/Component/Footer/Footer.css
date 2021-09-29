@@ -1,0 +1,38 @@
+.footer{
+    background-color: var(--secondry-color);
+    min-height:7rem;
+    width:100%;
+    padding:2.5rem;
+    font-size:1.5rem;
+    box-sizing:border-box;
+    text-align:center;
+}
+
+.footer-social-icons{
+    width:fit-content;
+    margin:1rem auto;
+    list-style:none;
+}
+
+.footer-social-icons li{
+    display:inline;
+    margin: 1rem;
+}
+
+.footer-social-icons a{
+    transition: 0.2sec;
+}
+
+.footer-social-icons a:hover{
+  color: var(--primary-color);
+}
+
+.btn-float-action{
+    bottom:1.75rem;
+}
+
+.footer-header{
+    font-size:1rem;
+    letter-spacing:0.5px;
+    align-items: center;
+}

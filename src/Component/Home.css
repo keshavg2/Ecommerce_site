@@ -4,15 +4,22 @@
 }
 .home{
     flex:5;
-    background: rgb(212, 210, 210);
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
+    width:900px;
 }
 
 .home_product{
-    border: 1px solid grey;
     margin: 20px;
+    width:300px;
+    text-align:center;
+}
+
+.home_product>img{
+    background-repeat: no-repeat;
+    background-size: auto;
+    width:300px;
 }
 
 .filter{
@@ -31,5 +38,16 @@
 }
 .sort{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
+}
+
+.page{
+    display:flex;
+    justify-content: center;
+}
+
+.heart_Icon{
+    border:none;
+    background-color:white;
+    outline:none;
 }
