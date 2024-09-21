@@ -1,4 +1,4 @@
-# I have done this challenge in Roc8.
+# I made this project for client(https://theshoperschoice.com/)
 
 ## Tech Stack-
  * React
